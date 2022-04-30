@@ -1,5 +1,5 @@
 .div__items {
-  height: 235px;
+  height: 224px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #c4c4c4;
@@ -43,7 +43,7 @@
   color: #009c2c;
 }
 .buttons-div {
-  /* border: 1px solid red; */
+ 
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -109,7 +109,7 @@
     color: #009c2c;
   }
   .buttons-div {
-    border: 1px solid red;
+    
 
     display: flex;
     flex-direction: column;
