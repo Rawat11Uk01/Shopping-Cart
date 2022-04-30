@@ -1,7 +1,9 @@
 import './Items.css';
 import React from 'react'
 import { data } from './data';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAdd } from '@fortawesome/free-solid-svg-icons';
+import { faMinus } from '@fortawesome/free-solid-svg-icons';
 const Items = () => {
 
     return (
@@ -13,9 +15,11 @@ const Items = () => {
                         <img src={d.image} />
                     </div>
                     <div className='addAndRemove'>
-                     <div className='addndremove'>
-                   
-                     </div>
+                     
+          <p><FontAwesomeIcon icon={faAdd}></FontAwesomeIcon></p>
+          1
+          <p><FontAwesomeIcon icon={faMinus}></FontAwesomeIcon></p>
+                     
                     </div>
                 </div>
                 <div className='items__details'>
